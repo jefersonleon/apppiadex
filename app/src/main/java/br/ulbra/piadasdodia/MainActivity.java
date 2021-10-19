@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Random n = new Random();
-                npiada = n.nextInt(14) + 1;
+                npiada = n.nextInt(((14 - 0) + 1)+0);
                 txtPiada.setText(piadas[npiada]);
                 txtNum.setText("Nº "+Integer.toString(npiada));//);
             }
